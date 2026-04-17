@@ -1,0 +1,167 @@
+.admin-dashboard {
+  padding: 20px;
+}
+
+.admin-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.date-display {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.last-updated {
+  font-size: 0.9rem;
+  color: #888;
+  font-style: italic;
+}
+
+.metric-card {
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+}
+
+.metric-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #0d6efd;
+}
+
+.sales-card .metric-icon {
+  color: #198754;
+}
+
+.profit-card .metric-icon {
+  color: #0d6efd;
+}
+
+.orders-card .metric-icon {
+  color: #fd7e14;
+}
+
+.items-card .metric-icon {
+  color: #6f42c1;
+}
+
+.metric-card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.metric-subtitle {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.top-products, .top-categories, .not-selling-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-item, .category-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.product-info, .category-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-info h3, .category-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.product-details, .category-details {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.not-selling-item {
+  background-color: #fff8f0;
+  border-radius: 8px;
+  padding: 15px;
+  border-left: 4px solid #fd7e14;
+}
+
+.not-selling-item h4 {
+  margin: 0 0 5px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.not-selling-item p {
+  margin: 0 0 10px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.action-suggestion {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.attention-card .card-header {
+  color: #333;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .admin-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .metric-value {
+    font-size: 1.6rem;
+  }
+  
+  .product-info, .category-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .product-details, .category-details {
+    margin-top: 5px;
+    width: 100%;
+    justify-content: space-between;
+  }
+}

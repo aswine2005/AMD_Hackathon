@@ -1,0 +1,16 @@
+date,productId,quantity,notes
+2025-04-01,4,15,Lower volume product
+2025-04-02,4,17,Slight increase
+2025-04-03,4,16,Normal day
+2025-04-04,4,18,Friday pattern
+2025-04-05,4,26,Weekend spike
+2025-04-06,4,24,Sunday sales
+2025-04-07,4,14,Monday drop
+2025-04-08,4,15,Recovery
+2025-04-09,4,16,Mid-week
+2025-04-10,4,17,Regular sales
+2025-04-11,4,19,Friday increase
+2025-04-12,4,27,Saturday peak
+2025-04-13,4,25,Sunday pattern
+2025-04-14,4,15,Monday drop
+2025-04-15,4,16,Normal pattern

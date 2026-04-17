@@ -1,0 +1,73 @@
+/* Enhanced Footer Styles */
+.footer-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.footer-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, #4285F4, #34A853);
+  transition: width 0.3s ease;
+}
+
+.footer-title:hover::after {
+  width: 70px;
+}
+
+.footer-links .list-group-item {
+  transition: all 0.3s ease;
+  position: relative;
+  padding-left: 0;
+}
+
+.footer-links .list-group-item:hover {
+  transform: translateX(5px);
+  color: #4285F4 !important;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background-color: #4285F4;
+  transform: translateY(-3px);
+  color: white !important;
+}
+
+.footer-contact p {
+  transition: all 0.3s ease;
+}
+
+.footer-contact p:hover {
+  transform: translateX(5px);
+  color: #4285F4;
+}
+
+/* Make sure footer sticks to bottom */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
+}

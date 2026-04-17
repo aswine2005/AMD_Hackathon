@@ -1,0 +1,11 @@
+date,productId,quantity,notes
+2026-05-15,1,25,Future date - should be rejected
+2024-03-15,1,30,Over 1 year old - should be rejected
+2025-04-15,999,28,Invalid product ID
+2025-04-16,1,-5,Negative quantity - should be rejected
+2025-04-17,1,0,Zero quantity - should be validated
+2025-04-18,,35,Missing product ID
+,1,40,Missing date
+invalid_date,1,45,Invalid date format
+2025-04-21,1,abc,Invalid quantity format
+2025-04-22,1,29,Valid entry

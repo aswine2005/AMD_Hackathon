@@ -1,0 +1,16 @@
+date,productId,quantity,notes
+2025-04-01,3,42,High demand product
+2025-04-02,3,39,Slight decrease
+2025-04-03,3,41,Recovery
+2025-04-04,3,45,Friday boost
+2025-04-05,3,55,Weekend high
+2025-04-06,3,52,Sunday sales
+2025-04-07,3,40,Weekday norm
+2025-04-08,3,41,Regular day
+2025-04-09,3,40,Mid-week
+2025-04-10,3,43,Pre-weekend rise
+2025-04-11,3,47,Friday sales
+2025-04-12,3,57,Saturday peak
+2025-04-13,3,53,Sunday sales
+2025-04-14,3,39,Monday drop
+2025-04-15,3,41,Recovery day

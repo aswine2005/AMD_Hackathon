@@ -1,0 +1,41 @@
+date,product_id,product_name,category_id,category_name,quantity,temperature,rainfall,is_weekend,is_festival
+2025-01-01,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,42,24,0,false,true
+2025-01-02,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,38,25,0,false,false
+2025-01-03,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,36,27,0,false,false
+2025-01-04,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,52,26,0,true,false
+2025-01-05,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,49,25,0,true,false
+2025-01-06,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,35,26,5,false,false
+2025-01-07,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,33,24,10,false,false
+2025-01-08,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,30,23,8,false,false
+2025-01-09,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,37,25,0,false,false
+2025-01-10,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,36,27,0,false,false
+2025-01-11,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,53,28,0,true,false
+2025-01-12,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,50,29,0,true,false
+2025-01-13,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,43,30,0,false,false
+2025-01-14,60a2b8e6c9e4d43d1c42a111,Coffee - Dark Roast,60a2b8d0c9e4d43d1c42a101,Beverages,56,28,0,false,true
+2025-01-15,60a2b8e6c9e4d43d1c42a112,Coffee - Light Roast,60a2b8d0c9e4d43d1c42a101,Beverages,40,27,0,false,false
+2025-01-16,60a2b8e6c9e4d43d1c42a112,Coffee - Light Roast,60a2b8d0c9e4d43d1c42a101,Beverages,36,26,0,false,false
+2025-01-17,60a2b8e6c9e4d43d1c42a112,Coffee - Light Roast,60a2b8d0c9e4d43d1c42a101,Beverages,38,25,0,false,false
+2025-01-18,60a2b8e6c9e4d43d1c42a112,Coffee - Light Roast,60a2b8d0c9e4d43d1c42a101,Beverages,48,26,0,true,false
+2025-01-19,60a2b8e6c9e4d43d1c42a112,Coffee - Light Roast,60a2b8d0c9e4d43d1c42a101,Beverages,46,27,0,true,false
+2025-01-20,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,28,25,0,false,false
+2025-01-21,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,26,24,2,false,false
+2025-01-22,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,25,24,4,false,false
+2025-01-23,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,27,25,0,false,false
+2025-01-24,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,29,26,0,false,false
+2025-01-25,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,40,27,0,true,false
+2025-01-26,60a2b8e6c9e4d43d1c42a113,Tea - Green,60a2b8d0c9e4d43d1c42a101,Beverages,38,28,0,true,true
+2025-01-27,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,60,30,0,false,false
+2025-01-28,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,56,29,0,false,false
+2025-01-29,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,55,28,0,false,false
+2025-01-30,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,54,27,0,false,false
+2025-01-31,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,53,26,0,false,false
+2025-02-01,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,76,25,0,true,false
+2025-02-02,60a2b8e6c9e4d43d1c42a121,Cookies - Chocolate Chip,60a2b8d0c9e4d43d1c42a102,Bakery,72,26,0,true,false
+2025-02-03,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,95,27,0,false,false
+2025-02-04,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,90,28,0,false,false
+2025-02-05,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,88,27,0,false,false
+2025-02-06,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,82,26,3,false,false
+2025-02-07,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,78,25,7,false,false
+2025-02-08,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,102,24,2,true,false
+2025-02-09,60a2b8e6c9e4d43d1c42a122,Bread - Whole Wheat,60a2b8d0c9e4d43d1c42a102,Bakery,97,25,0,true,false

@@ -1,0 +1,15 @@
+date,productId,quantity,notes
+2025-04-15,1,25,Regular sales day
+2025-04-16,1,30,Promotional day
+2025-04-17,1,28,Regular sales
+2025-04-18,1,35,Weekend coming
+2025-04-19,1,45,Weekend sales
+2025-04-20,1,40,Sunday sales
+2025-04-21,1,27,Monday dip
+2025-04-22,1,29,Recovery
+2025-04-23,1,31,Mid-week peak
+2025-04-24,1,33,Good sales day
+2025-04-25,1,38,Friday bump
+2025-04-26,1,47,Weekend peak
+2025-04-27,1,42,Sunday sales
+2025-04-28,1,32,Back to weekday

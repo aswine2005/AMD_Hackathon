@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0d6efd" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Retail Guard — AI-powered sales forecasting platform by Byte Buddies. Get accurate ML predictions, stock recommendations, and real-time analytics for your retail business."
+    />
+    <meta name="keywords" content="sales forecasting, machine learning, retail analytics, inventory management, AI predictions, stock recommendations" />
+    <meta name="author" content="Byte Buddies" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Retail Guard — AI Sales Forecasting" />
+    <meta property="og:description" content="AI-powered sales forecasting platform. ML predictions, stock recommendations, and real-time retail analytics." />
+    <meta property="og:image" content="%PUBLIC_URL%/logo512.png" />
+
+    <!-- PWA -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Google Fonts — Inter (preconnect for performance) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Retail Guard — AI Sales Forecasting | Byte Buddies</title>
+
+    <!-- Google Analytics 4 -->
+    <!-- Replace G-XXXXXXXXXX with your actual GA4 Measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX', {
+        anonymize_ip: true,
+        cookie_flags: 'SameSite=None;Secure',
+      });
+    </script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app. Retail Guard requires JavaScript for ML predictions and real-time analytics.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,349 @@
+/* Enhanced Rankings Page Styles */
+
+/* Page Header */
+.rankings-page-header {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.rankings-page-header:after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #4285F4, transparent);
+  border-radius: 3px;
+}
+
+/* Card Enhancements */
+.rankings-card {
+  border-radius: 12px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.07);
+  transition: all 0.4s ease;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.rankings-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.rankings-card .card-header {
+  background: linear-gradient(135deg, #4285F4, #34A853);
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+
+.rankings-card .card-body {
+  padding: 1.5rem;
+}
+
+/* Rank Animations and Styling */
+.rank-container {
+  display: flex;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.rank-improved {
+  animation: highlight-green 1.5s ease;
+}
+
+.rank-decreased {
+  animation: highlight-red 1.5s ease;
+}
+
+@keyframes highlight-green {
+  0%, 100% { background-color: transparent; }
+  50% { background-color: rgba(40, 167, 69, 0.2); }
+}
+
+@keyframes highlight-red {
+  0%, 100% { background-color: transparent; }
+  50% { background-color: rgba(220, 53, 69, 0.2); }
+}
+
+/* Product and category rows animation */
+.product-row, .category-row {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  position: relative;
+}
+
+.product-row:hover, .category-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  z-index: 10;
+}
+
+/* Metric buttons */
+.ranking-filter-buttons {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ranking-filter-buttons .btn-group {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.ranking-filter-buttons .btn {
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  border: none;
+  position: relative;
+}
+
+.ranking-filter-buttons .btn.active {
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.ranking-filter-buttons .btn.active:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: currentColor;
+  opacity: 0.5;
+}
+
+/* Suggestions panel */
+.suggestions-panel {
+  border-left: 4px solid #17a2b8;
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.suggestion-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: all 0.4s ease;
+  background-color: white;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.suggestion-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.suggestion-high {
+  border-left: 4px solid #dc3545;
+}
+
+.suggestion-medium {
+  border-left: 4px solid #fd7e14;
+}
+
+.suggestion-low {
+  border-left: 4px solid #6c757d;
+}
+
+/* Charts Enhancements */
+.chart-container {
+  position: relative;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.chart-container:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+}
+
+/* Historical Chart - Bigger Size */
+.historical-chart-container {
+  height: 450px !important; /* Increased height */
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* Trend indicators */
+.trend-indicator {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  border-radius: 30px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.trend-indicator:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+/* Time period selector */
+.time-period-selector {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.time-period-selector:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.time-period-selector select {
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 20px;
+}
+
+/* Medal ranks styling */
+.medal-rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.medal-rank.gold {
+  background: linear-gradient(135deg, #FFD700, #FFC107);
+  box-shadow: 0 3px 10px rgba(255, 215, 0, 0.3);
+}
+
+.medal-rank.silver {
+  background: linear-gradient(135deg, #C0C0C0, #9E9E9E);
+  box-shadow: 0 3px 10px rgba(192, 192, 192, 0.3);
+}
+
+.medal-rank.bronze {
+  background: linear-gradient(135deg, #CD7F32, #BF691E);
+  box-shadow: 0 3px 10px rgba(205, 127, 50, 0.3);
+}
+
+/* Loading animation */
+.rankings-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+.rankings-loading .loader {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #4285F4;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Tab styling */
+.rankings-tabs .nav-tabs {
+  border-bottom: none;
+  margin-bottom: 1.5rem;
+}
+
+.rankings-tabs .nav-link {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.rankings-tabs .nav-link:hover {
+  background-color: rgba(66, 133, 244, 0.05);
+  color: #4285F4;
+}
+
+.rankings-tabs .nav-link.active {
+  background-color: #4285F4;
+  color: white;
+  box-shadow: 0 4px 10px rgba(66, 133, 244, 0.3);
+}
+
+/* Table Styling */
+.rankings-table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+.rankings-table td {
+  padding: 1rem;
+  vertical-align: middle;
+}
+
+.rankings-table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.rankings-table tbody tr:hover {
+  background-color: rgba(66, 133, 244, 0.05);
+  transform: scale(1.01);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  z-index: 10;
+}
+
+/* Modal Enhancements */
+.suggestions-modal .modal-content {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.suggestions-modal .modal-header {
+  background: linear-gradient(135deg, #4285F4, #34A853);
+  color: white;
+  border: none;
+  padding: 1.5rem;
+}
+
+.suggestions-modal .modal-title {
+  font-weight: 600;
+}
+
+.suggestions-modal .modal-body {
+  padding: 1.5rem;
+}
